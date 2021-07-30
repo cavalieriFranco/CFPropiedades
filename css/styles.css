@@ -1,0 +1,605 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.propiedades {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: 50% 50%;
+      grid-template-rows: 50% 50%;
+  justify-items: center;
+  border: #df9d25 2px solid;
+  color: rgba(0, 0, 0, 0.719);
+  text-align: justify;
+  word-spacing: 2px;
+  font-style: italic;
+  margin: 20px;
+}
+
+img {
+  width: 450px;
+  height: 450px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.descripcion {
+  background-color: white;
+  border: rgba(255, 228, 196, 0.315) 2px solid;
+}
+
+body {
+  background-color: cornsilk;
+  height: 100vh;
+  background-image: url(../assets/fondoPagina.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.encabezado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  color: #4b2424;
+  font-size: 70px;
+  font-weight: bold;
+  border-radius: 2px;
+  margin-right: 25%;
+  margin-left: 25%;
+  -webkit-animation-name: entradaTitulo;
+          animation-name: entradaTitulo;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+@-webkit-keyframes entradaTitulo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes entradaTitulo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.encabezadoLogo {
+  width: 100px;
+  height: 100px;
+  margin-top: 0;
+}
+
+.inicio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 50px;
+}
+
+.videoInicio {
+  width: 750px;
+  height: 600px;
+}
+
+.ubicacion {
+  width: 500px;
+  height: 500px;
+}
+
+.presentacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 50px;
+}
+
+.presentacion__p {
+  color: black;
+}
+
+.presentacion__h4 {
+  color: black;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-image: -webkit-gradient(linear, left top, right top, from(palegoldenrod), to(#a5a550));
+  background-image: linear-gradient(to right, palegoldenrod, #a5a550);
+  border: 15px solid rgba(238, 232, 170, 0.377);
+  margin-bottom: none;
+}
+
+.zocaloLogo {
+  height: 70px;
+  width: 70px;
+  margin-left: 50px;
+}
+
+i {
+  font-size: 2rem;
+  color: brown;
+  margin: 0,2rem;
+}
+
+.formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+ol li {
+  background-color: beige;
+  margin-right: 25%;
+  margin-left: 25%;
+  font-size: 20px;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+.formulario__.botones {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.paraTransicion:hover {
+  -webkit-transition: 2s;
+  transition: 2s;
+  font-size: 2rem;
+}
+
+h5 {
+  color: black;
+  font-weight: bold;
+}
+
+p {
+  color: black;
+  background-color: beige;
+}
+
+h4 {
+  color: black;
+  background-color: #df9d25;
+}
+
+.error404 {
+  margin-left: 50%;
+  margin-right: 25%;
+  width: 200px;
+  height: 200px;
+}
+
+.error404 p {
+  font-size: 20px;
+  border: 2px black solid;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (min-width: 401px) and (max-width: 768px) {
+  .inicio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .videoInicio {
+    width: 350px;
+    height: 350px;
+  }
+  .ubicacion {
+    width: 250px;
+    height: 150px;
+    margin-left: 50%;
+    margin-right: 50%;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .encabezado {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  h1 {
+    font-size: 40px;
+    margin-right: 25%;
+    margin-left: 25%;
+  }
+  .propiedades {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: 25% 25% 25% 25%;
+        grid-template-rows: 25% 25% 25% 25%;
+    border: palegoldenrod 2px solid;
+    color: rgba(0, 0, 0, 0.719);
+    text-align: justify;
+    word-spacing: 2px;
+    font-style: italic;
+    margin: 20px;
+  }
+  img {
+    width: 350px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .zocaloLogo {
+    height: 70px;
+    width: 70px;
+    margin-left: 50px;
+  }
+  h5 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 15px;
+  }
+  ol li {
+    background-color: white;
+    font-size: 10px;
+    font-weight: bold;
+    list-style-type: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .inicio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .videoInicio {
+    width: 300px;
+    height: 250px;
+  }
+  .ubicacion {
+    width: 200px;
+    height: 100px;
+    margin-left: 50%;
+    margin-right: 50%;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .encabezado {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  h1 {
+    font-size: 30px;
+    margin-right: 25%;
+    margin-left: 25%;
+  }
+  .propiedades {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: 25% 25% 25% 25%;
+        grid-template-rows: 25% 25% 25% 25%;
+    border: palegoldenrod 2px solid;
+    color: rgba(0, 0, 0, 0.719);
+    text-align: justify;
+    word-spacing: 2px;
+    font-style: italic;
+    margin: 20px;
+  }
+  img {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .zocaloLogo {
+    height: 70px;
+    width: 70px;
+    margin-left: 50px;
+  }
+  h5 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 15px;
+  }
+  ol li {
+    background-color: white;
+    font-size: 10px;
+    font-weight: bold;
+    list-style-type: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .inicio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .videoInicio {
+    width: 550px;
+    height: 400px;
+  }
+  .ubicacion {
+    width: 250px;
+    height: 150px;
+    margin-left: 50%;
+    margin-right: 50%;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .encabezado {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  h1 {
+    font-size: 60px;
+    margin-right: 25%;
+    margin-left: 25%;
+  }
+  .propiedades {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: 25% 25% 25% 25%;
+        grid-template-rows: 25% 25% 25% 25%;
+    border: palegoldenrod 2px solid;
+    color: rgba(0, 0, 0, 0.719);
+    text-align: justify;
+    word-spacing: 2px;
+    font-style: italic;
+    margin: 20px;
+  }
+  img {
+    width: 450px;
+    height: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .zocaloLogo {
+    height: 70px;
+    width: 70px;
+    margin-left: 50px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  .inicio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .videoInicio {
+    width: 750px;
+    height: 600px;
+  }
+  .ubicacion {
+    width: 350px;
+    height: 350px;
+    margin-left: 50%;
+    margin-right: 50%;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .encabezado {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  h1 {
+    font-size: 60px;
+    margin-right: 25%;
+    margin-left: 25%;
+  }
+  .propiedades {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: 25% 25% 25% 25%;
+        grid-template-rows: 25% 25% 25% 25%;
+    border: palegoldenrod 2px solid;
+    color: rgba(0, 0, 0, 0.719);
+    text-align: justify;
+    word-spacing: 2px;
+    font-style: italic;
+    margin: 20px;
+  }
+  img {
+    width: 550px;
+    height: 550px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .zocaloLogo {
+    height: 70px;
+    width: 70px;
+    margin-left: 50px;
+  }
+  h5 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,22 @@
+.propiedades {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    justify-items: center;
+    border:rgb(223, 157, 37) 2px solid;
+    color: rgba(0, 0, 0, 0.719);
+    text-align: justify;
+    word-spacing: 2px;
+    font-style: italic; 
+    margin: 20px;
+}  
+img {
+    width: 450px;
+    height: 450px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.descripcion{
+    background-color: white;
+    border:rgba(255, 228, 196, 0.315) 2px solid;
+}
