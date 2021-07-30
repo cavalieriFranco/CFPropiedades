@@ -159,6 +159,7 @@ $width1: $width - 250;
       align-items: center;
       margin-left:25%;
       margin-right:25%;
+      justify-content: space-between;
     }
     .videoInicio{
       width: 350px;
@@ -169,7 +170,6 @@ $width1: $width - 250;
       height: 150px;
       margin-left:50%;
       margin-right:50%;
-      margin-top:50px;
     }
     footer{
       display:flex;
@@ -230,6 +230,7 @@ $width1: $width - 250;
       align-items: center;
       margin-left:25%;
       margin-right:25%;
+      justify-content: space-between;
     }
     .videoInicio{
       width: 300px;
@@ -240,7 +241,6 @@ $width1: $width - 250;
       height: 100px;
       margin-left:50%;
       margin-right:50%;
-      margin-top:50px;
     }
     footer{
       display:flex;
@@ -301,6 +301,7 @@ $width1: $width - 250;
       align-items: center;
       margin-left:25%;
       margin-right:25%;
+      justify-content: space-between;
     }
     .videoInicio{
       width: 550px;
