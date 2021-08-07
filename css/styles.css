@@ -56,7 +56,7 @@ body {
 
 h1 {
   font-family: 'Courier New', Courier, monospace;
-  color: #4b2424;
+  color: #1f0404;
   font-size: 70px;
   font-weight: bold;
   border-radius: 2px;
@@ -164,12 +164,6 @@ footer {
   margin-bottom: none;
 }
 
-.zocaloLogo {
-  height: 70px;
-  width: 70px;
-  margin-left: 50px;
-}
-
 i {
   font-size: 2rem;
   color: brown;
@@ -192,15 +186,6 @@ i {
   font-weight: bold;
 }
 
-ol li {
-  background-color: beige;
-  margin-right: 25%;
-  margin-left: 25%;
-  font-size: 20px;
-  font-weight: bold;
-  list-style-type: none;
-}
-
 .formulario__.botones {
   display: inline-block;
   margin-top: 10px;
@@ -219,11 +204,15 @@ h5 {
 }
 
 p {
+  font-size: 20px;
+}
+
+p {
   color: black;
   background-color: beige;
 }
 
-h4 {
+h3 {
   color: black;
   background-color: #df9d25;
 }

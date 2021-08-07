@@ -22,7 +22,7 @@ $width1: $width - 250;
   }
   h1 {
     font-family:'Courier New', Courier, monospace;
-    color:rgb(75, 36, 36);
+    color:rgb(31, 4, 4);
     font-size: $fontSize;
     font-weight: bold;
     border-radius: 2px;
@@ -85,11 +85,6 @@ $width1: $width - 250;
     border: 15px solid rgba(238, 232, 170, 0.377);
     margin-bottom:none;
   }
-  .zocaloLogo{
-    height: 70px;
-    width: 70px;
-    margin-left:50px;
-  }
   i {
     font-size: 2rem;
     color:brown;
@@ -105,16 +100,6 @@ $width1: $width - 250;
     }
     font-weight: bold;
   }
-  ol{
-    li{
-      background-color:beige;
-      margin-right: 25%;
-      margin-left:25%;
-      font-size: 20px;
-      font-weight: bold;
-      list-style-type: none;
-    }
-  }
   .formulario__.botones {
     display:inline-block;
     margin-top:10px;
@@ -128,6 +113,9 @@ $width1: $width - 250;
     color:black;
     font-weight: bold;
   }
+  p{
+    font-size: 20px;
+  }
   @mixin fontStyle ($color){
     color:$colorp;
     background-color: $color;
@@ -135,7 +123,7 @@ $width1: $width - 250;
   p{
     @include fontStyle (beige);
   }
-  h4{
+  h3{
     @include fontStyle(rgb(223, 157, 37));
   }
   .error404{
