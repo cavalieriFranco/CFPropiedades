@@ -34,14 +34,25 @@ img {
 
 body {
   background-color: cornsilk;
-  height: 100vh;
+  position: relative;
+}
+
+body::before {
+  content: "";
   background-image: url(../assets/fondoPagina.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.80;
 }
 
 .encabezado {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -57,6 +68,7 @@ body {
 h1 {
   font-family: 'Courier New', Courier, monospace;
   color: #1f0404;
+  position: relative;
   font-size: 70px;
   font-weight: bold;
   border-radius: 2px;
@@ -93,6 +105,7 @@ h1 {
 }
 
 .encabezadoLogo {
+  position: relative;
   width: 100px;
   height: 100px;
   margin-top: 0;
@@ -106,17 +119,20 @@ h1 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  position: relative;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   margin: 50px;
 }
 
 .videoInicio {
+  position: relative;
   width: 750px;
   height: 600px;
 }
 
 .ubicacion {
+  position: relative;
   width: 500px;
   height: 500px;
   margin-top: 50px;
@@ -133,6 +149,7 @@ h1 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: relative;
   margin: 50px;
 }
 
@@ -148,6 +165,7 @@ h1 {
 }
 
 footer {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -171,6 +189,7 @@ i {
 }
 
 .formulario {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -198,7 +217,12 @@ i {
   font-size: 2rem;
 }
 
+h2 {
+  position: relative;
+}
+
 h5 {
+  position: relative;
   color: black;
   font-weight: bold;
 }
@@ -257,7 +281,7 @@ h3 {
   }
   .ubicacion {
     width: 250px;
-    height: 150px;
+    height: 200px;
     margin-left: 50%;
     margin-right: 50%;
   }
@@ -306,7 +330,7 @@ h3 {
   }
   img {
     width: 350px;
-    height: 300px;
+    height: 350px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -352,8 +376,8 @@ h3 {
     height: 250px;
   }
   .ubicacion {
-    width: 200px;
-    height: 100px;
+    width: 250px;
+    height: 200px;
     margin-left: 50%;
     margin-right: 50%;
   }
@@ -401,8 +425,8 @@ h3 {
     margin: 20px;
   }
   img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -449,7 +473,7 @@ h3 {
   }
   .ubicacion {
     width: 250px;
-    height: 150px;
+    height: 200px;
     margin-left: 50%;
     margin-right: 50%;
     margin-top: 50px;
